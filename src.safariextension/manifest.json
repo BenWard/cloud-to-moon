@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
+	"name": "Cloud To Moon",
 	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
-	"content_scripts": 
+	"description": "Replaces the text 'the cloud' with 'the moon'. Port of Steven Frank's Cloud-to-Butt Chrome extension, at the behest of Paul Mison.",
+	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],
@@ -12,4 +12,3 @@
 		}
 	]
 }
-
