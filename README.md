@@ -9,3 +9,7 @@ Browser extension that replaces occurrences of 'the cloud' with 'the moon'. Port
 
 In Chrome, choose Window > Extensions.  Drag CloudToMoon.crx into the page that appears.
 For Safari, download the extension and open it.
+
+## Changes
+
+v1.1 - Wrap extension in closure, convert ‘in the cloud’ to ‘on the moon’, tidy up case-variance replacement.
