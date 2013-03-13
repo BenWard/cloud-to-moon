@@ -31,9 +31,9 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-    v = v.replace(/\bThe Cloud\b/g, "The Moon");
+	v = v.replace(/\bThe Cloud\b/g, "The Moon");
 	v = v.replace(/\bThe cloud\b/g, "The moon");
-    v = v.replace(/\bthe Cloud\b/g, "the Moon");
+	v = v.replace(/\bthe Cloud\b/g, "the Moon");
 	v = v.replace(/\bthe cloud\b/g, "the moon");
 	
 	textNode.nodeValue = v;
