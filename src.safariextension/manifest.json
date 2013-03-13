@@ -1,13 +1,13 @@
 {
 	"manifest_version": 2,
 	"name": "Cloud To Moon",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Replaces the text 'the cloud' with 'the moon'. Port of Steven Frank's Cloud-to-Butt Chrome extension, at the behest of Paul Mison.",
 	"content_scripts":
 	[
 		{
 			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
+			"js": ["thatsnocloud.js"],
 			"run_at": "document_end"
 		}
 	]
