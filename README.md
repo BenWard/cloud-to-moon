@@ -2,7 +2,7 @@
 
 > When you are the moon, the best form you can be is a full moon. And then the half moon... he's all right. But the full moon is the famous moon. And then three-quarters, eh, no one gives a shit about him. When does he come, two days in, to the calendar month? He's useless. Full moon. The moon. The main moon. 
 
-— The Moon, The Might Boosh
+— The Moon, The Mighty Boosh
 
 Browser extension that replaces occurrences of 'the *cloud*' with 'the moon'. Ported from [Steven Frank](http://stevenf.com)'s [Cloud to Butt](https://github.com/panicsteve/cloud-to-butt/) at the behest of [Paul Mison](https://twitter.com/blech/status/311644070273490945).
 
