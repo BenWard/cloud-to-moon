@@ -32,6 +32,13 @@
         moon.push(c.charAt(0) == 'C' ? "Moon" : "moon");
         return moon.join(' ');
       }
+    ).replace(/\b([Cc])loud(-based| computing)\b/g,
+      function(match, c, suffix) {
+        var moon = [];
+        moon.push(c.charAt(0) == 'C' ? "Moon" : "moon");
+        moon.push(suffix);
+        return moon.join('');
+      }
     );
     textNode.nodeValue = v;
   }
